@@ -1,0 +1,28 @@
+<div class="col-lg-6">
+    <div class="input-group">
+      <!-- <input type="text" class="form-control" placeholder="Search for..."> -->
+    <select class="form-control js-example-basic-single">
+        <option *ngFor="let chartType of chartTypes" value="chartType" >{{ chartType }}</option>
+    </select>
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" (click)="createGraph('TEMP')">Go!</button>
+      </span>
+    </div>
+</div>
+<!-- <hr> -->
+    <!-- <button class="btn btn-default" type="button" (click)="createGraph('difficulty')">Difficulty</button>
+    <button class="btn btn-default" type="button" (click)="createGraph('marketPrice')">Market Price</button>
+    <button class="btn btn-default" type="button" (click)="createGraph('hashRate')">Hash Rate</button>
+    <button class="btn btn-default" type="button" (click)="createGraph('nTransactionsPerBlock')">Number Of Transactions Per Block</button>
+    <button class="btn btn-default" type="button" (click)="createGraph('transactionFeesUsd')">Total Transaction Fees in USD</button> -->
+<hr>
+
+<div class="container">
+    <chart [options]="options" 
+        (load)="saveInstance($event.context)">
+    </chart>
+</div>
+
+<!-- <li *ngFor="let post of posts.values">
+    <span>{{post.x}}, {{post.y}}</span>
+</li> -->

@@ -1,0 +1,17 @@
+.jumbotron{
+    background-color:#1e3648;
+    text-align:center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.welcome-screen-img {
+    background-color:#25467a;
+    text-align:center;
+}

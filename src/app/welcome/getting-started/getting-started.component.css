@@ -1,0 +1,13 @@
+.container-table {
+    height: 100%;
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.getting-started {
+    height: 100%;
+    background-color: #1e3648
+}

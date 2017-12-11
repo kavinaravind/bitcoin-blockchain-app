@@ -2,6 +2,9 @@
 
 Bitcoin Blockchain App!
 
+![](https://github.com/kavinaravind/bitcoin-blockchain-app/blob/master/src/assets/bitcoinBlockchain.png "Bitcoin Blockchain App")
+
+
 Starter Seed Used: https://github.com/maximegris/angular-electron
 
 ## Getting Started
